@@ -11,9 +11,9 @@ validation, reproducibility, and saying clearly what a number does and doesn't p
 
 | Project | What it is | Result |
 | --- | --- | --- |
-| [2Brain](https://2brainai.tech) | Corporate AI assistant with a managed memory layer, permission-aware retrieval, and agents that cite sources or name the evidence gap | Web workspace + authenticated MCP access; memory layer uses gbrain (MIT) |
-| [agent-platform](https://github.com/azxav/agent-platform) | Multi-agent LangGraph platform: pack registry, per-run cost caps, SSE, mock LLM, golden evals | 908 tests passed; golden evals 10/10 under mock; includes Brescou/langgraph-agent-stack (MIT) |
-| [bank-doc-rag](https://github.com/azxav/bank-doc-rag) | Multilingual bank-document RAG: LangGraph + Qdrant citations, offline demo, eval harness | Offline `/ask` demo; partial val metrics only (full eval blocked by OpenRouter credits) |
+| [2Brain](https://2brainai.tech) | Corporate AI assistant I built with a managed memory layer, permission-aware retrieval, and agents that cite sources (or name the gap) | Live product at 2brainai.tech; memory layer uses gbrain (MIT) |
+| [agent-platform](https://github.com/azxav/agent-platform) | Multi-agent FastAPI service I assembled: pack registry, per-run cost caps, SSE, mock LLM, golden evals | 908 tests; golden evals 10/10 under mock |
+| [bank-doc-rag](https://github.com/azxav/bank-doc-rag) | Multilingual bank-document RAG I built: LangGraph + Qdrant citations, offline demo | Offline demo works; full eval table blocked by OpenRouter credits |
 | [kaggle-S6E3](https://github.com/azxav/kaggle-S6E3) | Customer churn prediction (Kaggle Playground S6E3): feature-family sweeps, GBDTs, tabular deep nets, DVAE features, stacking | Rank 57 of 4,142 (top 1.4%), score 0.91824 |
 | [kgmon](https://github.com/azxav/kgmon) | MCP server + CLIs that turn a Kaggle competition into a local, validation-first workspace with leakage checks, packaging, and guarded submission | 19 MCP tools; secret redaction and confirm-before-submit |
 | [orbit_warsv2](https://github.com/azxav/orbit_warsv2) | Set-transformer behaviour-cloning agent for the Orbit Wars Kaggle game, trained on winner replays (successor to my [JAX PPO agent](https://github.com/azxav/orbit_wars)) | 18M-param export won 8/8 local games vs a nearest-planet baseline (small sample, not a leaderboard rank) |
