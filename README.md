@@ -12,11 +12,11 @@ validation, reproducibility, and saying clearly what a number does and doesn't p
 | Project | What it is | Result |
 | --- | --- | --- |
 | [2Brain](https://2brainai.tech) | Corporate AI assistant with a managed memory layer, permission-aware retrieval, and agents that cite their sources or name the evidence gap | Web workspace + authenticated MCP access; [built on gbrain](https://github.com/garrytan/gbrain) |
-| [traffic-vision](https://github.com/azxav/traffic-vision) | Fixed-camera traffic event detection (congestion, failure to yield, red-light running) with YOLO11s, ByteTrack, and junction rules | Score A 0.5084 (up from 0.4684 after a signal-rule change); precision 0.73 / 0.85 / 1.00 at temporal IoU 0.5 on 118 reviewed intervals |
-| [recsys_kuirand](https://github.com/azxav/recsys_kuirand) | Two-stage short-video recommender on KuaiRand: ALS / ItemKNN / EASE retrieval + monotone CatBoost ranker, FastAPI serving skeleton | On the unbiased random-policy log, calibrated ranker AUC 0.644 vs 0.572 for popularity, log loss 0.497 vs 0.512 |
 | [kaggle-S6E3](https://github.com/azxav/kaggle-S6E3) | Customer churn prediction (Kaggle Playground S6E3): feature-family sweeps, GBDTs, tabular deep nets, DVAE features, stacking | Rank 57 of 4,142 (top 1.4%), score 0.91824 |
 | [kgmon](https://github.com/azxav/kgmon) | MCP server + CLIs that turn a Kaggle competition into a local, validation-first workspace with leakage checks, packaging, and guarded submission | 19 MCP tools; secret redaction and confirm-before-submit |
 | [orbit_warsv2](https://github.com/azxav/orbit_warsv2) | Personal project: set-transformer behaviour-cloning agent for the Orbit Wars Kaggle game, trained on winner replays (successor to my [JAX PPO agent](https://github.com/azxav/orbit_wars)) | 18M-param export won 8/8 local games vs a nearest-planet baseline (small sample, not a leaderboard rank) |
+| [traffic-vision](https://github.com/azxav/traffic-vision) | Fixed-camera traffic event detection (congestion, failure to yield, red-light running) with YOLO11s, ByteTrack, and junction rules | Score A 0.5084 (up from 0.4684 after a signal-rule change); precision 0.73 / 0.85 / 1.00 at temporal IoU 0.5 on 118 reviewed intervals |
+| [recsys_kuirand](https://github.com/azxav/recsys_kuirand) | Two-stage short-video recommender on KuaiRand: ALS / ItemKNN / EASE retrieval + monotone CatBoost ranker, FastAPI serving skeleton | On the unbiased random-policy log, calibrated ranker AUC 0.644 vs 0.572 for popularity, log loss 0.497 vs 0.512 |
 
 traffic-vision, recsys_kuirand, kaggle-S6E3, kgmon, and orbit_warsv2 are personal projects.
 Each README states its evaluation setup and limitations.
